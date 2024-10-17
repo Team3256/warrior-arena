@@ -7,10 +7,11 @@ package model
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/Team3256/warrior-arena/game"
 )
 
 //go:generate stringer -type=MatchType

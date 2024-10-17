@@ -7,14 +7,15 @@ package web
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/tournament"
-	"github.com/Team254/cheesy-arena/websocket"
 	"io"
 	"log"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/tournament"
+	"github.com/Team3256/warrior-arena/websocket"
 )
 
 // Global var to hold configurable time limit for selections. A value of zero disables the timer.

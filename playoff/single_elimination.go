@@ -7,8 +7,9 @@ package playoff
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
 	"strings"
+
+	"github.com/Team3256/warrior-arena/model"
 )
 
 // Creates a single-elimination bracket containing only the required matchups for the given number of alliances, and

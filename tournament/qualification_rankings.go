@@ -7,10 +7,11 @@ package tournament
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
 	"sort"
 	"strconv"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
 )
 
 // Determines the rankings from the stored match results, and saves them to the database.

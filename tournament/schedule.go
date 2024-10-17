@@ -8,13 +8,14 @@ package tournament
 import (
 	"encoding/csv"
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
 	"math"
 	"math/rand"
 	"os"
 	"path/filepath"
 	"strconv"
 	"time"
+
+	"github.com/Team3256/warrior-arena/model"
 )
 
 const (

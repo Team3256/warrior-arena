@@ -7,9 +7,10 @@ package field
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
 	"math"
 	"time"
+
+	"github.com/Team3256/warrior-arena/model"
 )
 
 const maxExpectedCycleTimeSec = 900

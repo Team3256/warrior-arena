@@ -4,9 +4,10 @@
 package playoff
 
 import (
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMatchupAllianceSourceDisplayNames(t *testing.T) {

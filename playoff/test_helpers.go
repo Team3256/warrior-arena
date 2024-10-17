@@ -6,9 +6,10 @@
 package playoff
 
 import (
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/stretchr/testify/assert"
 )
 
 func setupTestDb(t *testing.T) *model.Database {

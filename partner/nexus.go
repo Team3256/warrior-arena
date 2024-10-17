@@ -8,10 +8,11 @@ package partner
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
 	"io"
 	"net/http"
 	"strconv"
+
+	"github.com/Team3256/warrior-arena/model"
 )
 
 const nexusBaseUrl = "https://frc.nexus"

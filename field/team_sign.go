@@ -7,14 +7,15 @@ package field
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
 	"image/color"
 	"log"
 	"net"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
 )
 
 // Represents a collection of team number and timer signs.

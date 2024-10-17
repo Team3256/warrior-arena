@@ -6,9 +6,10 @@
 package web
 
 import (
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/websocket"
 	"net/http"
+
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/websocket"
 )
 
 // Renders the announcer display which shows team info and scores for the current match.

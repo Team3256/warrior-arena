@@ -5,12 +5,13 @@ package web
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/tournament"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/tournament"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMatchReview(t *testing.T) {

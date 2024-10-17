@@ -11,13 +11,14 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/mitchellh/mapstructure"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"strconv"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/mitchellh/mapstructure"
 )
 
 const (

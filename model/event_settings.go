@@ -5,7 +5,7 @@
 
 package model
 
-import "github.com/Team254/cheesy-arena/game"
+import "github.com/Team3256/warrior-arena/game"
 
 type PlayoffType int
 

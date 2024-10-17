@@ -7,12 +7,13 @@ package web
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/websocket"
 	"io"
 	"log"
 	"net/http"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/websocket"
 )
 
 // Shows the Field Testing page.

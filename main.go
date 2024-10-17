@@ -7,8 +7,8 @@
 package main
 
 import (
-	"github.com/Team254/cheesy-arena/field"
-	"github.com/Team254/cheesy-arena/web"
+	"github.com/Team3256/warrior-arena/field"
+	"github.com/Team3256/warrior-arena/web"
 	"log"
 )
 

@@ -6,10 +6,11 @@
 package web
 
 import (
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/tournament"
 	"net/http"
 	"strconv"
+
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/tournament"
 )
 
 // Shows the awards configuration page.

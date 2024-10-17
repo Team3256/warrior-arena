@@ -4,18 +4,19 @@
 package field
 
 import (
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/partner"
-	"github.com/Team254/cheesy-arena/playoff"
-	"github.com/Team254/cheesy-arena/tournament"
-	"github.com/Team254/cheesy-arena/websocket"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/partner"
+	"github.com/Team3256/warrior-arena/playoff"
+	"github.com/Team3256/warrior-arena/tournament"
+	"github.com/Team3256/warrior-arena/websocket"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestAssignTeam(t *testing.T) {

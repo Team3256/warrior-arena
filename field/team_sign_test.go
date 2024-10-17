@@ -4,11 +4,12 @@
 package field
 
 import (
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/stretchr/testify/assert"
 	"image/color"
 	"testing"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestTeamSign_GenerateInMatchRearText(t *testing.T) {

@@ -7,8 +7,9 @@ package playoff
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
 	"sort"
+
+	"github.com/Team3256/warrior-arena/model"
 )
 
 type MatchGroup interface {

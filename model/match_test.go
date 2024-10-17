@@ -4,10 +4,11 @@
 package model
 
 import (
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetNonexistentMatch(t *testing.T) {

@@ -9,10 +9,11 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
 	"net"
 	"sync"
 	"time"
+
+	"github.com/Team3256/warrior-arena/model"
 )
 
 const (

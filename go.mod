@@ -1,4 +1,4 @@
-module github.com/Team254/cheesy-arena
+module github.com/Team3256/warrior-arena
 
 go 1.22
 

@@ -5,13 +5,14 @@ package tournament
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"os"
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMain(m *testing.M) {

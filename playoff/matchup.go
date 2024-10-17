@@ -8,8 +8,9 @@ package playoff
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
 	"math"
+
+	"github.com/Team3256/warrior-arena/game"
 )
 
 type Matchup struct {

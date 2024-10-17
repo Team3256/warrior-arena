@@ -6,8 +6,9 @@
 package tournament
 
 import (
-	"github.com/Team254/cheesy-arena/model"
 	"testing"
+
+	"github.com/Team3256/warrior-arena/model"
 )
 
 func CreateTestAlliances(database *model.Database, allianceCount int) {

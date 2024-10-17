@@ -5,15 +5,16 @@ package web
 
 import (
 	"bytes"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/tournament"
-	"github.com/stretchr/testify/assert"
 	"io"
 	"mime/multipart"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/tournament"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestSetupSettings(t *testing.T) {

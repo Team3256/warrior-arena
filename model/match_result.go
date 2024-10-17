@@ -6,7 +6,7 @@
 package model
 
 import (
-	"github.com/Team254/cheesy-arena/game"
+	"github.com/Team3256/warrior-arena/game"
 )
 
 type MatchResult struct {

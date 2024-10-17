@@ -7,7 +7,6 @@ package field
 
 import (
 	"fmt"
-	"github.com/Team254/cheesy-arena/websocket"
 	"net/url"
 	"reflect"
 	"sort"
@@ -15,6 +14,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/Team3256/warrior-arena/websocket"
 )
 
 const (

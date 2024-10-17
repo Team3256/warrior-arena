@@ -4,12 +4,13 @@
 package web
 
 import (
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/websocket"
-	gorillawebsocket "github.com/gorilla/websocket"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/websocket"
+	gorillawebsocket "github.com/gorilla/websocket"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestAllianceStationDisplay(t *testing.T) {

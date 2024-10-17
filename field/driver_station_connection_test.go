@@ -4,12 +4,13 @@
 package field
 
 import (
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/network"
-	"github.com/stretchr/testify/assert"
 	"net"
 	"testing"
 	"time"
+
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/network"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestEncodeControlPacket(t *testing.T) {

@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/playoff"
-	"github.com/Team254/cheesy-arena/tournament"
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/playoff"
+	"github.com/Team3256/warrior-arena/tournament"
 	"github.com/jung-kurt/gofpdf"
 )
 

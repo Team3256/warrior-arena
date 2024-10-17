@@ -8,10 +8,11 @@ package web
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
 	"net/http"
 	"strconv"
+
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
 )
 
 type MatchReviewListItem struct {

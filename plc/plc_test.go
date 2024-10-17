@@ -4,10 +4,11 @@
 package plc
 
 import (
-	"github.com/Team254/cheesy-arena/websocket"
+	"testing"
+
+	"github.com/Team3256/warrior-arena/websocket"
 	"github.com/goburrow/modbus"
 	"github.com/stretchr/testify/assert"
-	"testing"
 )
 
 func TestPlcInitialization(t *testing.T) {

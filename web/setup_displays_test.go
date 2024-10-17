@@ -4,12 +4,13 @@
 package web
 
 import (
-	"github.com/Team254/cheesy-arena/field"
-	"github.com/Team254/cheesy-arena/websocket"
+	"testing"
+
+	"github.com/Team3256/warrior-arena/field"
+	"github.com/Team3256/warrior-arena/websocket"
 	gorillawebsocket "github.com/gorilla/websocket"
 	"github.com/mitchellh/mapstructure"
 	"github.com/stretchr/testify/assert"
-	"testing"
 )
 
 func TestSetupDisplays(t *testing.T) {

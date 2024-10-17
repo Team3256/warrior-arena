@@ -13,11 +13,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Team254/cheesy-arena/field"
-	"github.com/Team254/cheesy-arena/game"
-	"github.com/Team254/cheesy-arena/model"
-	"github.com/Team254/cheesy-arena/tournament"
-	"github.com/Team254/cheesy-arena/websocket"
+	"github.com/Team3256/warrior-arena/field"
+	"github.com/Team3256/warrior-arena/game"
+	"github.com/Team3256/warrior-arena/model"
+	"github.com/Team3256/warrior-arena/tournament"
+	"github.com/Team3256/warrior-arena/websocket"
 	"github.com/mitchellh/mapstructure"
 )
 
